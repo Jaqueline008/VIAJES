@@ -1,0 +1,145 @@
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Europa - Destinos de Viaje</title>
+      <style>
+          body {
+              background: linear-gradient(135deg, #2E86AB 0%, #A23B72 100%);
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 20px;
+              color: white;
+              min-height: 100vh;
+          }
+          
+          .container {
+              max-width: 800px;
+              margin: 0 auto;
+          }
+          
+          h1 {
+              font-size: 3em;
+              text-align: center;
+              margin-bottom: 20px;
+              text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+          }
+          
+          .separator {
+              height: 3px;
+              background: white;
+              margin: 30px 0;
+              border-radius: 2px;
+          }
+          
+          .content {
+              font-size: 1.2em;
+              line-height: 1.6;
+              margin: 20px 0;
+              text-align: justify;
+          }
+          
+          .travel-image {
+              width: 100%;
+              max-width: 600px;
+              height: 300px;
+              object-fit: cover;
+              border-radius: 15px;
+              margin: 20px auto;
+              display: block;
+              box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+          }
+          
+          .destinations {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+              gap: 20px;
+              margin: 30px 0;
+          }
+          
+          .destination-card {
+              background: rgba(255,255,255,0.1);
+              padding: 20px;
+              border-radius: 10px;
+              backdrop-filter: blur(10px);
+              text-align: center;
+          }
+          
+          .nav-links {
+              text-align: center;
+              margin: 30px 0;
+          }
+          
+          .nav-links a {
+              color: #FFD700;
+              text-decoration: none;
+              font-weight: bold;
+              margin: 0 15px;
+              font-size: 1.1em;
+              padding: 10px 20px;
+              background: rgba(255,255,255,0.1);
+              border-radius: 25px;
+              transition: all 0.3s ease;
+              display: inline-block;
+          }
+          
+          .nav-links a:hover {
+              color: #FFF;
+              background: rgba(255,215,0,0.2);
+              text-shadow: 0 0 10px #FFD700;
+              transform: translateY(-2px);
+          }
+      </style>
+  </head>
+  <body>
+      <div class="container">
+          <h1>🏰 Europa</h1>
+          
+          <div class="separator"></div>
+          
+          <div class="content">
+              <p>Europa es un continente lleno de historia, arte y cultura. Desde los románticos canales de Venecia hasta los majestuosos castillos de Alemania, cada país ofrece experiencias únicas que han moldeado la civilización occidental.</p>
+          </div>
+          
+          <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Paisaje europeo" class="travel-image">
+          
+          <div class="separator"></div>
+          
+          <h2>Destinos Imperdibles</h2>
+          
+          <div class="destinations">
+              <div class="destination-card">
+                  <h3>🇫🇷 París, Francia</h3>
+                  <p>La ciudad del amor con la Torre Eiffel y el Louvre</p>
+              </div>
+              
+              <div class="destination-card">
+                  <h3>🇮🇹 Roma, Italia</h3>
+                  <p>Historia antigua con el Coliseo y el Vaticano</p>
+              </div>
+              
+              <div class="destination-card">
+                  <h3>🇪🇸 Barcelona, España</h3>
+                  <p>Arquitectura de Gaudí y cultura mediterránea</p>
+              </div>
+              
+              <div class="destination-card">
+                  <h3>🇬🇷 Santorini, Grecia</h3>
+                  <p>Islas paradisíacas con vistas al Egeo</p>
+              </div>
+          </div>
+          
+          <img src="https://images.unsplash.com/photo-1549144511-f099e773c147?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Arquitectura europea" class="travel-image">
+          
+          <div class="separator"></div>
+          
+          <div class="nav-links">
+              <a href="index.html">🏠 Inicio</a>
+              <a href="asia.html">🏯 Asia</a>
+              <a href="america.html">🗽 América</a>
+              <a href="africa.html">🦁 África</a>
+          </div>
+      </div>
+  </body>
+  </html>
